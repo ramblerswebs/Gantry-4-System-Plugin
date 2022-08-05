@@ -7,7 +7,7 @@
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
-    <version>4.1.433</version>
+    <version>4.1.434</version>
     <description>Gantry 4 system plugin. Needs to be enabled at all times.</description>
     <files>
         <filename plugin="gantry">gantry.php</filename>
