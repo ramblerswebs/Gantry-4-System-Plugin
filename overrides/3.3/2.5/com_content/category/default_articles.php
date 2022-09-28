@@ -180,7 +180,12 @@ if (!empty($this->items)) {
                             <td headers="categorylist_header_edit" class="list-edit">
                             <?php if ($article->params->get('access-edit')) : ?>
                                 <?php
-                                $params = &$this->item->params;
+                                if (property_exists($this,"item")){
+                                      $params = &$this->item->params;
+                                }else{
+                                    $params=null;
+                                }
+                              
                                 echo JHtml::_('icon.edit', $article, $params);
                                 ?>
                                 <?php endif; ?>
